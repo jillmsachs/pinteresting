@@ -1,7 +1,26 @@
-$body-bg:		#e74c3c;
-$navbar-inverse-bg: 	#2c3e50;
-$navbar-inverse-link-color: 	White;
-$brand-primary:		#2980b9;
-$jumbotron-bg:		#ecf0f1;
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+
+$body-bg:		#BFBFBF;
+$font-size-base: 	14px;
+$font-family-sans-serif: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:		45px;
+$navbar-default-bg: 	#D64541;
+$navbar-default-link-color: 	White;
+$brand-primary:		#D64541;
+$brand-info:		#7f8c8d;
+$jumbotron-bg:		White;
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
+
+.white { color: White; }
+
+
+
 
 @import 'bootstrap';
